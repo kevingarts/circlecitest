@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = 3000;
+const PORT = 3001;
 
 // Simple route to test the server.
 app.get('/', (req, res) => {
