@@ -1,0 +1,63 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
+.recipe-section {
+  position: relative;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  top: 0;
+  left: 0;
+}
+
+.recipe-background {
+  width: 1500px;
+  height: 800px;
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.recipe-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.843);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.left-arrow {
+  left: 20px;
+}
+
+.right-arrow {
+  right: 20px;
+}
+
+.recipe-container .arrow {
+  position: absolute;
+}
+
+.WeekHeader {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-style: normal;
+  padding-bottom: 50px;
+  padding-left: 60px;
+  font-weight: 700;
+}
+
+.navbar-end .navbar-item:hover {
+  background-color: red;
+}
