@@ -2,7 +2,7 @@ import "./home.css";
 import lasagna from "../../assets/lasagna.jpg";
 import shrimp from "../../assets/shrimpScampi.jpeg";
 import alaVodka from "../../assets/penneAllaVodka.jpg";
-import React, { useState } from "react";
+import { useState } from "react";
 
 const sampleRecipes = [
   {
